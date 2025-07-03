@@ -41,23 +41,24 @@ Ensure these columns exist in your Excel file.
 3. Install required packages:
    ```bash
    pip install pandas scikit-learn streamlit openpyxl
-Run the app:
+
+4. Run the app:
 
 streamlit run app.py
 
-Model
+🧠Model
 
-Algorithm: Logistic Regression
+1. Algorithm: Logistic Regression
 
-Target Variable: HighSales (1 if sales > median, else 0)
+2. Target Variable: HighSales (1 if sales > median, else 0)
 
-Features: Price, Rating, NumReviews, StockQuantity, Discount, Encoded Category
+3. Features: Price, Rating, NumReviews, StockQuantity, Discount, Encoded Category
 
-Output
+📊Output
 
-Sales Prediction: Indicates whether the given product is likely to perform well
+1. Sales Prediction: Indicates whether the given product is likely to perform well
 
-Top Recommendations: Lists top 5 products with highest sales in the same category
+2. Top Recommendations: Lists top 5 products with highest sales in the same category
 
 Screenshots
 ![Screenshot (261)](https://github.com/user-attachments/assets/e2871493-f570-4bfd-a4f7-433d27b2c907)
